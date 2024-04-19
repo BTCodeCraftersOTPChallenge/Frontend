@@ -1,0 +1,178 @@
+/* .home{
+    background-color: #4422ef;
+
+    width: 100%;
+    height: 100%;
+} */
+
+
+/* For both: */
+.home-header {
+    color: #8e2807;
+}
+
+.home-divTitle {
+    margin-left: 24%;
+    margin-top: 8%;
+
+    width: 50vmax;
+    height: 9vmax;
+
+    position: absolute;
+
+    background: #B61616;
+    border-radius: 80px;
+    border: 6px solid #000000;
+    border-radius: 60px 60px 60px 60px;
+    z-index: 10;
+}
+
+.home-title {
+    position: absolute;
+
+    margin-left: 30%;
+    margin-top: 10%;
+
+    font-family: "Marcellus";
+    font-style: normal;
+    font-size: 4.25vmax;
+    color: #000000;
+
+    z-index: 10;
+}
+
+
+/* Login: */
+.home-loginP {
+    position: absolute;
+
+    margin-left: 10%;
+    margin-top: 25%;
+
+    font-family: "Marcellus";
+    font-style: normal;
+    font-size: 3vmax;
+    color: #000000;
+
+    z-index: 10;
+}
+
+.home-loginStyle {
+    position: absolute !important;
+
+    margin-top: 24vmax !important;
+    margin-left: -14vmax !important;
+
+    width: 25vmax !important;
+    height: 6vmax !important;
+
+    background-color: #B61616 !important;
+    color: black !important;
+    border-radius: 50px 50px 50px 50px !important;
+    border: #000000 solid 3px !important;
+
+    z-index: 10;
+    font-size: 3vmax !important;
+}
+
+.home-loginStyle:hover {
+    background-color: white !important;
+    border-radius: 30px 30px 30px 30px !important;
+}
+
+
+/* Generate OTP: */
+.home-generateOTP {
+    position: absolute;
+
+    margin-left: 10%;
+    margin-top: 35%;
+
+    font-family: "Marcellus";
+    font-style: normal;
+    font-size: 3vmax;
+    color: #000000;
+
+    z-index: 10;
+}
+
+.home-OTPtext {
+    position: absolute;
+
+    margin-left: 66%;
+    margin-top: 20%;
+
+    font-family: "Marcellus";
+    font-style: normal;
+    font-size: 2.25vmax;
+    color: #000000;
+
+    z-index: 10;
+}
+
+.home-OTP {
+    position: absolute;
+
+    margin-left: 65%;
+    margin-top: 30%;
+
+    font-family: "Marcellus";
+    font-style: italic;
+    font-size: 3.5vmax;
+    color: #000000;
+
+    z-index: 10;
+}
+
+.home-OTPtimer {
+    position: absolute;
+
+    margin-left: 70%;
+    margin-top: 38%;
+
+    font-family: "Marcellus";
+    font-style: normal;
+    font-size: 2.25vmax;
+    color: #000000;
+
+    z-index: 10;
+}
+
+
+/* Logout: */
+.home-logoutP {
+    position: absolute;
+
+    margin-left: 10%;
+    margin-top: 30%;
+
+    font-family: "Marcellus";
+    font-style: normal;
+    font-size: 3vmax;
+    color: #000000;
+
+    z-index: 10;
+}
+
+.home-logoutStyle {
+    position: absolute !important;
+
+    margin-top: 29vmax !important;
+    margin-left: 12vmax !important;
+
+    width: 25vmax !important;
+    height: 6vmax !important;
+
+    background-color: #B61616 !important;
+    color: black !important;
+    border-radius: 50px 50px 50px 50px !important;
+    border: #000000 solid 3px !important;
+
+    z-index: 10;
+    font-size: 3vmax !important;
+}
+
+.home-logoutStyle:hover {
+    background-color: white !important;
+    border-radius: 30px 30px 30px 30px !important;
+}
